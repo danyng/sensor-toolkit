@@ -8,7 +8,7 @@
 const char* ssid = "STK LOCAL NAME"; 
 const char* password = "STK LOCAL PASSWORD";
 
-const char* OOCSIName = "module_microphone";
+const char* OOCSIName = "module_brightness";
 const char* recipient = "stk_demo_visualizer";
 
 const char* hostserver = "INSERT IP HERE";
