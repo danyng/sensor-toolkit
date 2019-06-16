@@ -1,4 +1,5 @@
-//make compatible with multi sensors
+// logger stats for monitoring incoming data and additional "meta" data
+
 
 import nl.tue.id.oocsi.*;
 import java.util.*;
@@ -13,7 +14,7 @@ String[] keys = {"size1", "size2", "size3"};
 int[] values = {-200, -200, -200};
 Date[] lastTimes = new Date[3];
 
-//use these to actually store the last info instead of relying on the oocsi event
+// last event parameters
 Date lastEventTime = new Date();
 String lastKey;
 int lastValue;
