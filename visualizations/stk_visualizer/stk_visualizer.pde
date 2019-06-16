@@ -29,7 +29,7 @@ PImage waves;
 
 void setup() {
 
-  OOCSI oocsi = new OOCSI(this, "stk_demo_visualizer", "192.168.4.1");
+  OOCSI oocsi = new OOCSI(this, "stk_demo_visualizer", "IP HERE");
 
   fullScreen(2);
   //size(1920, 1080);
