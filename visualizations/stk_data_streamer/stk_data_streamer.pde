@@ -1,6 +1,6 @@
-/*creates an array filled with random numbers
- streaming it at the speed of time interval.
- prints total play time based on the speed and size
+/* streaming csv content at the speed of time interval.
+   mouseX position will change the speed of play back.
+   additional: prints total play time based on the speed and size.
  */
 
 Table table;
